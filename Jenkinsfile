@@ -1,8 +1,10 @@
-node {
-
-    stage('publish') {
-
-      echo "hello world 3"
-
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                bat 'echo hello world'
+            }
+        }
     }
 }
