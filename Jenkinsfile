@@ -2,7 +2,7 @@ node {
 
     stage('publish') {
 
-      echo "hello world"
+      echo "hello world 2"
 
     }
 }
