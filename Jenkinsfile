@@ -6,5 +6,10 @@ pipeline {
                 bat 'echo hello world'
             }
         }
+        stage('Test') {
+            steps {
+                bat 'echo hello test'
+            }
+        }
     }
 }
