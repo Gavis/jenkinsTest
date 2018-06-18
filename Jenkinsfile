@@ -2,7 +2,7 @@ node {
 
     stage('publish') {
 
-      echo "uploading package..."
+      echo "hello world"
 
     }
 }
