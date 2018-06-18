@@ -1,5 +1,8 @@
 node {
 
-    echo 'Hello World'
+    stage('publish') {
 
+      echo "uploading package..."
+
+    }
 }
