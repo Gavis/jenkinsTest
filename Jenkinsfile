@@ -1,10 +1,5 @@
-pipeline {
-    agent any
-	stages {
-        stage('build') {
-            steps {
-                bat 'echo test'
-            }
-        }
-    }
+node {
+
+    echo 'Hello World'
+
 }
