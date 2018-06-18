@@ -2,7 +2,6 @@ pipeline {
     agent {
 		docker {
 			image 'postgres'
-			label 'jfPostgres'
 			args  '--name jf-postgres -e POSTGRES_PASSWORD=mysecretpassword -d'
 		}
 	}
